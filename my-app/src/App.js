@@ -1,11 +1,11 @@
-import React from 'react';
-function App() {
-  return (
-    <div className="App">
-      <h1>hello world</h1>
-      <p>hello world</p>
-    </div>
-  );
-}
+import React from 'react'
+import {BrowserRouter} from 'react-router-dom'
+import MainRouter from './MainRouter'
+
+const App = ()=>(
+  <BrowserRouter>
+    <MainRouter/>
+  </BrowserRouter>
+);
 
 export default App;
