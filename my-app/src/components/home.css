@@ -28,16 +28,25 @@
   font-family:"Nixie One", Arial, Helvetica, sans-serif;
 }
 
-.img-fluid{
-  margin: -75px 0 0 -100px;  
-  overflow: hidden;
-  padding-left: 150px;
-  padding-top: 20px;
-  height:400px;
-}
 .col-sm{
   font-weight: bolder;
   text-align: left;
   color: #747474;
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.container{
+  padding-bottom:100px;
+}
+
+.why-us-bg{
+  background-color:  #f0f0ed;
+}
+
+.seperator{
+  clear: both;
+  display: block;
+  height: 1px;
+  width: 100%;
+  overflow: hidden;
 }
