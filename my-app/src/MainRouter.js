@@ -4,7 +4,7 @@ import Home from './components/Home'
 const MainRouter =()=>(
     <div>
         <Switch>
-            <Route to="/home" component={Home}/>
+            <Route to="/" component={Home}/>
         </Switch>
     </div>
 )

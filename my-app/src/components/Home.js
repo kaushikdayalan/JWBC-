@@ -1,10 +1,10 @@
 import React,{Component} from 'react'
-
+import Menu from '../components/Menu'
 class Home extends Component{
     render(){
         return(
-            <div>
-                Hello world
+            <div> 
+                <Menu></Menu>
             </div>
         )
     }
