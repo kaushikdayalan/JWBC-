@@ -2,7 +2,8 @@
 	height: 100vh;
 	min-height: 500px;
 	background-image: url('../assets/lake.jpg');
-	background-size: cover;
-	background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-position: center;
 	background-repeat: no-repeat;
   }
