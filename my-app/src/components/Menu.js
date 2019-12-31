@@ -3,9 +3,8 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../components/menu.css'
 
 const Menu = ()=>(
-    
     <div> 
-        <ul class="nav justify-content-end" style={{background:'black'}}>
+        <ul class="nav justify-content-end" >
   <li class="nav-item">
     <a class="nav-link" href="#asdasd">HOME</a>
   </li>
@@ -28,7 +27,7 @@ const Menu = ()=>(
     <a class="nav-link"href="#asdda">EVENTS</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link"style={{color:'white'}} href="#saddas">CONTACT US</a>
+    <a class="nav-link"href="#saddas">CONTACT</a>
   </li>
 </ul>
     </div>
