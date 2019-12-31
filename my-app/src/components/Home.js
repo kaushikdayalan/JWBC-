@@ -1,6 +1,7 @@
 import React,{Component} from 'react'
 import Menu from '../components/Menu'
 import '../components/home.css' 
+import img from '../assets/longshot.png'
 class Home extends Component{
     render(){
         return(
@@ -21,8 +22,11 @@ class Home extends Component{
                 </header>
                 </section>
                 <section>
-                    <div style={{paddingTop:'70px',paddingBottom:'40px'}}>
+                    <div style={{paddingTop:'70px',paddingBottom:'100px'}}>
                     <h1 className="heading" align='center'>The Jungle Walks Base Camp</h1>
+                    </div>
+                    <div align='center'>
+                    <img src={img} class="img-fluid" alt title="awesome" width='1250' height='300' sizes="(max-width:800px) 100vw,1250px" alt="error"></img>
                     </div>
                 </section>
             </div>
