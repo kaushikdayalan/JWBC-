@@ -13,7 +13,7 @@ class Home extends Component{
                         <div class="row h-100 align-items-center">
                             <div class="col-12 text-right" style={{top:'100px',left:'60px'}}>
                                 <h1 className="font-main">Welcome to Jungle Walks Base Camp</h1>
-                                    <p class="lead">Wild is Calling !! Where are you ??</p>
+                                    <p class="lead">Wild is Calling! Where are you?</p>
                                     <button className="btn btn-secondary btn-lg" href="#contact-us">Know more</button>
                             </div>
                         </div>
