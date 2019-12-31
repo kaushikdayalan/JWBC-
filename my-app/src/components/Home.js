@@ -25,9 +25,22 @@ class Home extends Component{
                     <div style={{paddingTop:'70px',paddingBottom:'100px'}}>
                     <h1 className="heading" align='center'>The Jungle Walks Base Camp</h1>
                     </div>
-                    <div align='center'>
-                    <img src={img} class="img-fluid" alt title="awesome" width='1250' height='300' sizes="(max-width:800px) 100vw,1250px" alt="error"></img>
+                    <div align='center'style={{paddingBottom:'50px'}}>
+                    <img src={img} class="img-fluid" width='1250px'alt="error"></img>
                     </div>
+                    <div class="container">
+                        <h4 className="heading" align="center">Our location by the forest, African styled 
+                        tented accommodation and highly personalized activities, allow us to give you a 
+                        true and unique wildlife experience.</h4>
+  <div class="row" align='center'>
+    <div class="col-sm">
+      One of three two columns
+    </div>
+    <div class="col-sm">
+      Two of Two columns
+    </div>
+  </div>
+</div>
                 </section>
             </div>
         )

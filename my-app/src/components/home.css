@@ -27,3 +27,11 @@
 .heading{
   font-family:"Nixie One", Arial, Helvetica, sans-serif;
 }
+
+.img-fluid{
+  margin: -75px 0 0 -100px;  
+  overflow: hidden;
+  padding-left: 150px;
+  padding-top: 20px;
+  height:400px;
+}
