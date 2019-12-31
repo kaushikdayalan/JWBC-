@@ -29,18 +29,30 @@ class Home extends Component{
                     <img src={img} class="img-fluid" width='1250px'alt="error"></img>
                     </div>
                     <div class="container">
-                        <h4 className="heading" align="center">Our location by the forest, African styled 
+                        <h4 className="heading" align="center" style={{paddingBottom:'40px'}}>Our location by the forest, African styled 
                         tented accommodation and highly personalized activities, allow us to give you a 
                         true and unique wildlife experience.</h4>
-  <div class="row" align='center'>
-    <div class="col-sm">
-      One of three two columns
-    </div>
-    <div class="col-sm">
-      Two of Two columns
-    </div>
-  </div>
-</div>
+                        <div class="row" align='center'>
+                        <div class="col-sm">
+                            <p>Serene and tranquil through the day while exciting and adventurous at night; 
+                            the Bison Resort is the first of its kind in India that offers something rustic and luxurious at the 
+                            very edge of adventure.</p>
+                            <p>‘The Bison is situated at the confluence of the Bandipur and Nagarhole National Parks, 
+                                on the shores of the Kabini River in Karnataka (West of Mysore).</p>
+                            <p>A mix between a rustic African wildlife tented camp and the old hunting lodges of the Raj, 
+                                The Bison offers a beautiful balance of luxury amidst wilderness.</p>
+                        </div>
+                        <div class="col-sm">
+                            <p>The Bison is the only property in the area that overlooks the tourism zone of Nagarhole
+                                Tiger Reserve. We are closest to the gate and offer fabulous game viewing, both from camp and on safari.</p>
+                            <p>With our spectacular location, accommodation and services, we promise you a one of a kind exclusive wilderness experience.</p>
+                            <p>Curl up in the cosy deck and gaze into the forests at sunset, have a drink by the crackling 
+                                fire and share your stories of the forest, dine in the jungle under a blanket of stars, 
+                                soak in the romance of a midnight boat ride or thrill yourself with tracking down a big cat on safari. 
+                                As we at The Bison always say, “If you are Game, so are we.”</p>
+                        </div>
+                        </div>
+                    </div>
                 </section>
             </div>
         )

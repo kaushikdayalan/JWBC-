@@ -35,3 +35,9 @@
   padding-top: 20px;
   height:400px;
 }
+.col-sm{
+  font-weight: bolder;
+  text-align: left;
+  color: #747474;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
