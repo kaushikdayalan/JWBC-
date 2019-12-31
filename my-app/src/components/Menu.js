@@ -1,32 +1,34 @@
 import React from 'react'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../components/menu.css'
 
 const Menu = ()=>(
-    <div>
-        <ul class="nav justify-content-end" style={{backgroundColor:'black'}}> 
+    
+    <div> 
+        <ul class="nav justify-content-end" style={{background:'black'}}>
   <li class="nav-item">
-    <a class="nav-link active" style={{color:'white'}}href="#asdasd">Home</a>
+    <a class="nav-link" href="#asdasd">HOME</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#sadasd"style={{color:'white'}}>About Us</a>
+    <a class="nav-link" href="#sadasd">ABOUT US</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#sadsa"style={{color:'white'}}>Projects</a>
+    <a class="nav-link" href="#sadsa">PROJECTS</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#asdasd"style={{color:'white'}}>Accommodation</a>    
+    <a class="nav-link"href="#asdasd">ACCOMMODATION</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#saddas"style={{color:'white'}}>Gallery</a>
+    <a class="nav-link"href="#saddas">GALLERY</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#asdas"style={{color:'white'}}>Blog</a>
+    <a class="nav-link"href="#asdas">BLOG</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#asdda"style={{color:'white'}}>Events</a>
+    <a class="nav-link"href="#asdda">EVENTS</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#saddas"style={{color:'white'}}>Contact us</a>
+    <a class="nav-link"style={{color:'white'}} href="#saddas">CONTACT US</a>
   </li>
 </ul>
     </div>
