@@ -21,7 +21,7 @@ const Menu= (props) => {
 
   return (
     <div>
-      <Navbar color="light" light expand="md">
+      <Navbar color="transperent" dark expand="md">
         <NavbarBrand href="/">reactstrap</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

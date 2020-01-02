@@ -11,7 +11,7 @@ class Home extends Component{ //ok now I will fix the image
     render(){
         return(
             <div>
-                <div className="container"> 
+                <div className="container-fluid container1"> 
                 <header className="masthead">
                 <Menu></Menu>
                     <div className="container">
