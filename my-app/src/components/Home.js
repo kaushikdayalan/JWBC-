@@ -3,6 +3,7 @@ import Menu from '../components/Menu'
 import '../components/home.css' 
 import longshot from '../assets/longshot.png'
 import whyUs from '../assets/WHYUS.jpg'
+import WwCarousel from './WwCarousel'
 class Home extends Component{
     render(){
         return(
@@ -123,6 +124,9 @@ class Home extends Component{
                         </div>
                     </div>
                 </section>
+                <div style={{paddingTop:'30px',paddingBottom:'100px'}}>
+                    <WwCarousel/>
+                </div>
             </div>
         )
     }
