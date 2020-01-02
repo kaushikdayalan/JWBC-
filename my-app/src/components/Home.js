@@ -16,10 +16,10 @@ class Home extends Component{ //ok now I will fix the image
                 <Menu></Menu>
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-10 text-right" style={{bottom:'60px',top:'300px',left:'60px'}}>
+                            <div className="col-10 text-right" style={{top:'350px',left:'60px'}}>
                                 <h1 className="font-main">Welcome to Jungle Walks Base Camp</h1>
                                     <p className="lead">Wild is Calling! Where are you?</p>
-                                    <button className="btn btn-secondary btn-lg" href="#contact-us">Know more</button>
+                                    <button className="btn btn-secondary btn-lg" href="#contact-us" style={{fontSize:'15px',align:'left'}}>Know more</button>
                             </div>
                         </div>
                     </div>
