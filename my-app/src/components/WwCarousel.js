@@ -51,7 +51,7 @@ const WwCarousel = (props)=>{
             key = {item.src}
             width='100%'
             >   
-                <img src={item.src} alt={item.altText}></img>
+                <img src={item.src} className="d-block w-100" style={{height:'400px'}} alt={item.altText}></img>
                 <CarouselCaption captionText={item.caption} captionHeader={item.caption}/>
             </CarouselItem>
         );
