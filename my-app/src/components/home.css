@@ -15,18 +15,19 @@
 
 .font-main{
   font-family:"Nixie One", Arial, Helvetica, sans-serif;
-  color: white;
-  font-weight: 500;
+  color: whitesmoke;
+  font-weight: bold;
   letter-spacing: 0px;
   font-size: 37px;
   font-style: normal;
 }
 
 .lead{
-  color: white;
-  font-size: 25px;
-  font-weight: 200;
-  font-style: normal;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 29px;
+  text-align: center;
+  
 }
 
 .heading{
