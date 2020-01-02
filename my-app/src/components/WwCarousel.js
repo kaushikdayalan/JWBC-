@@ -1,8 +1,8 @@
 import React,{useState} from 'react'
 import {Carousel, CarouselItem,CarouselControl,CarouselIndicators,CarouselCaption} from 'reactstrap'
-import longshot from '../assets/longshot.png'
-import WHYUS from '../assets/WHYUS.jpg'
-import lake from '../assets/lake.jpg'
+import longshot from '../assets/buffalo.jpg'
+import WHYUS from '../assets/cow.jpg'
+import lake from '../assets/horse.jpg'
 
 const items= [
     {
