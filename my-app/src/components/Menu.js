@@ -3,16 +3,11 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText
 } from 'reactstrap';
+import './menu.css'
 
 const Menu= (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,36 +16,35 @@ const Menu= (props) => {
 
   return (
     <div>
-      <Navbar color="transperent" dark expand="md">
-        <NavbarBrand href="/">reactstrap</NavbarBrand>
+      <Navbar color="transperent" fixed="top" expand="md">
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
-            <NavItem>
-              <NavLink href="/components/">Components</NavLink>
+          <Nav className="ml-auto" navbar>
+            <NavItem className="nav-item">
+              <NavLink  href="/">HOME</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+              <NavLink href="#djksdfh">ABOUT US</NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Options
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>
-                  Option 1
-                </DropdownItem>
-                <DropdownItem>
-                  Option 2
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>
-                  Reset
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
+            <NavItem>
+              <NavLink href="#djksdfh">PROJECTS</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#djksdfh">ACCOMMODATION</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#djksdfh">GALLERY</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#djksdfh">BLOGS</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#djksdfh">EVENTS</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#djksdfh">CONTACT US</NavLink>
+            </NavItem>
           </Nav>
-          <NavbarText>Simple Text</NavbarText>
         </Collapse>
       </Navbar>
     </div>
