@@ -49,8 +49,9 @@ const WwCarousel = (props)=>{
             onExiting={()=>setAnimating(true)}
             onExited={()=>{setAnimating(false)}}
             key = {item.src}
-            >
-                <img src={item.src} width='75%' className="img-fluid" alt={item.altText}></img>
+            width='100%'
+            >   
+                <img src={item.src} alt={item.altText}></img>
                 <CarouselCaption captionText={item.caption} captionHeader={item.caption}/>
             </CarouselItem>
         );
@@ -60,7 +61,7 @@ const WwCarousel = (props)=>{
           activeIndex={activeIndex}
           next={next}
           previous={previous}
-          background='black'
+          
         >
           <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
           {slides}
