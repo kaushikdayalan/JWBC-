@@ -124,7 +124,7 @@ class Home extends Component{
                         </div>
                     </div>
                 </section>
-                <div className="container" style={{height:'50%', width:'50%'}}>
+                <div style={{height:'50%', width:'100%'}}>
                 <div style={{paddingTop:'30px',paddingBottom:'100px'}}>
                     <h1 className="heading" align="center" style={{paddingBottom:'50px',paddingTop:'50px'}}>Wild Watching</h1>
                     <WwCarousel/>
