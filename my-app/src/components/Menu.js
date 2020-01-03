@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 import {
   Collapse,
-  Media,
- 
   Navbar,
   NavbarToggler,
+  Media,
   Nav,
   NavItem,
   NavLink,
+  NavbarBrand,
 } from 'reactstrap';
 import './menu.css'
-import LogoFinal from '../assets/LogoFinal.png'
+import LogoFinal from '../assets/LogoTest.png'
 
 const Menu= (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,16 +19,10 @@ const Menu= (props) => {
 
   return (
     <div>
-      <Media>
-  <img
-    width={290}
-    height={170}
-    className="mr-3"
-    src={LogoFinal}
-    alt="Generic placeholder"/> 
-  
-</Media>
-      <Navbar color="transperent" fixed="top" expand="md">
+      <Navbar color="transperent" light expand="md">
+        <NavbarBrand href="/" >
+          <img src={LogoFinal} alt="error loading"/>
+        </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
