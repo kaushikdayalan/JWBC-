@@ -15,7 +15,19 @@ class Home extends Component{ //ok now I will fix the image
                 <div className="container-fluid container1"> 
                 <header>
                 <Menu></Menu>
+<<<<<<< HEAD
                     <img src={lake} className="container-fluid" style={{paddingLeft:'0',paddingRight:'0'}}></img>
+=======
+                    <div className="container">
+                        <div className="row align-items-center">
+                            <div className="col-10 text-right" style={{top:'300px',left:'60px'}}>
+                                <h1 className="font-main">Welcome to Jungle Walks Base Camp</h1>
+                                    <p className="lead">Wild is Calling! Where are you?</p>
+                                    <button className="btn btn-secondary btn-lg" href="#contact-us" style={{fontSize:'15px',textAlign:'center'}}>Know more</button>
+                            </div>
+                        </div>
+                    </div>
+>>>>>>> 825c6262c82afd7c06f2ef1b8440372e7d0c6128
                 </header>
             </div>
                 <section>
