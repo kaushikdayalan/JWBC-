@@ -2,9 +2,11 @@
   padding-left: 0;
   padding-right: 0;
 }
+
+
 .masthead {
 	height: 100vh;
-  min-height: 500px;
+  min-height: 200px;
 	background-image: url('../assets/lake.jpg');
   background-size: cover;
   width: 100%;
@@ -57,3 +59,16 @@
   width: 100%;
   overflow: hidden;
 }
+
+@media screen and (max-width:600px){
+  .masthead {
+    height: auto;
+    min-height: 200px;
+    background-image: url('../assets/lake.jpg');
+    background-size: cover;
+    width: 100%;
+    background-blend-mode: overlay;
+    background-position: inherit;
+    background-repeat: no-repeat;
+  } 
+  }

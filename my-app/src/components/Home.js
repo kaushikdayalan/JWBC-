@@ -11,20 +11,7 @@ class Home extends Component{ //ok now I will fix the image
     render(){
         return(
             <div>
-                <div className="container-fluid container1"> 
-                <header className="masthead">
                 <Menu></Menu>
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-10 text-right" style={{top:'300px',left:'60px'}}>
-                                <h1 className="font-main">Welcome to Jungle Walks Base Camp</h1>
-                                    <p className="lead">Wild is Calling! Where are you?</p>
-                                    <button className="btn btn-secondary btn-lg" href="#contact-us" style={{fontSize:'15px',textAlign:'center'}}>Know more</button>
-                            </div>
-                        </div>
-                    </div>
-                </header>
-            </div>
                 <section>
                     <div style={{paddingTop:'70px',paddingBottom:'100px'}}>
                     <h1 className="heading" align='center'>The Jungle Walks Base Camp</h1>
