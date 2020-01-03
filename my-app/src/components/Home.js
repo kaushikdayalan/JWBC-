@@ -6,23 +6,16 @@ import longshot from '../assets/longshot.png'
 import whyUs from '../assets/WHYUS.jpg'
 import WwCarousel from './WwCarousel'
 import FooterMenu from './FooterMenu'
+import lake from '../assets/lake.jpg'
 
 class Home extends Component{ //ok now I will fix the image 
     render(){
         return(
             <div>
                 <div className="container-fluid container1"> 
-                <header className="masthead">
+                <header>
                 <Menu></Menu>
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-10 text-right" style={{top:'350px',left:'60px'}}>
-                                <h1 className="font-main">Welcome to Jungle Walks Base Camp</h1>
-                                    <p className="lead">Wild is Calling! Where are you?</p>
-                                    <button className="btn btn-secondary btn-lg" href="#contact-us" style={{fontSize:'15px',align:'left'}}>Know more</button>
-                            </div>
-                        </div>
-                    </div>
+                    <img src={lake} className="container-fluid" style={{paddingLeft:'0',paddingRight:'0'}}></img>
                 </header>
             </div>
                 <section>

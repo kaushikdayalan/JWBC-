@@ -16,8 +16,8 @@ const Menu= (props) => {
 
   return (
     <div>
-      <Navbar color="transperent" fixed="top" expand="md">
-        <NavbarToggler onClick={toggle} />
+      <Navbar color="white" expand="md">
+        <NavbarToggler onClick={toggle} className="mr-2" ></NavbarToggler>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem className="nav-item">
