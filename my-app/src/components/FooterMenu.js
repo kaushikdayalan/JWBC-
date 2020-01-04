@@ -79,7 +79,9 @@ const FooterMenu = ()=>{
   <div class="row justify-content-center">
     <div class="col-md-auto">
       <br></br>
-        <img src={footerLogo} width={280} alt="error"/>
+      <div className="text-center">
+        <img src={footerLogo}alt="error"/>
+      </div>
     </div>
   </div>
 </div>

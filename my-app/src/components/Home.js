@@ -23,7 +23,7 @@ class Home extends Component{
                     width='1250px'alt="error"></img>
                     </div>
                     <div className="container">
-                        <h4 className="heading" align="center" style={{paddingBottom:'40px'}}>Our location by the forest, African styled 
+                        <h4 className="heading" align="center" style={{paddingBottom:'40px',fontSize:'24px'}}>Our location by the forest, African styled 
                         tented accommodation and highly personalized activities, allow us to give you a 
                         true and unique wildlife experience.</h4>
                         <div className="row">
@@ -64,7 +64,7 @@ class Home extends Component{
                             </div>
                             <div className="row">
                                 <div className="col-sm">
-                                    <h4 className="heading" align="center" style={{fontSize:'24',paddingBottom:'40px',lineHeight:'2'}}>
+                                    <h4 className="heading" align="center" style={{fontSize:'24px',paddingBottom:'40px',lineHeight:'2'}}>
                                         We believe in experiential travel where our guests at Camp are <br></br>explorers.
                                          We will personalize your stay, help you track<br></br>wildlife and
                                     offer you activities no one else can.</h4>
@@ -73,7 +73,7 @@ class Home extends Component{
                             <div className="container">
                                 <div className="row">
                                     <div className="col-sm" > 
-                                        <h3 className="heading"align="center"style={{color:'black'}}><strong>Team & Location</strong></h3>
+                                        <h3 align="center"style={{color:'black'}}><strong>Team & Location</strong></h3>
                                         <p align="center">Watching elephants graze on the opposite bank from the Observation Deck 
                                             (equipped with binoculars and telescopes) is not uncommon. Herds of gaur 
                                             can be seen in the late evenings by the water. Deer, Sambar and Wild boar are at 
@@ -87,7 +87,7 @@ class Home extends Component{
                                         
                                     </div>
                                     <div className="col-sm">
-                                        <h3 className="heading"align="center"style={{color:'black'}}><strong>Unique Accommodation</strong></h3>
+                                        <h3 align="center"style={{color:'black'}}><strong>Unique Accommodation</strong></h3>
                                         <p align="center">The Bison takes pride in being the only African styled Tented Camp in South India.
                                          Our rooms are spacious and cosy and come with a stunning view. We offer an entirely new experience 
                                          as we maintain the rustic nature of the forest coupled with some small luxuries, to allow you the
@@ -100,7 +100,7 @@ class Home extends Component{
                                         <br></br><br></br><button>View Accommodation</button></p>
                                     </div>
                                     <div className="col-sm">
-                                        <h3 className="heading"align="center"style={{color:'black'}}><strong>Special Activities</strong></h3>
+                                        <h3 align="center"style={{color:'black'}}><strong>Special Activities</strong></h3>
                                         <p align="center">As mentioned above, The Bison’s unmatched view and low inventory allows 
                                         us to offer exclusive and highly personalized activities. These activities will strongly 
                                         enhance the experience and enrich your holiday.</p>
