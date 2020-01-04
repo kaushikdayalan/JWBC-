@@ -9,7 +9,7 @@ import {
   NavLink
 } from 'reactstrap';
 import Lake from '../assets/lake.jpg'
-import Logo from '../assets/logoplain.png'
+import Logo from '../assets/logomobile.png'
 
 const NavbarMobile = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +19,7 @@ const NavbarMobile = (props) => {
   return (
     <div>
       <Navbar color="dark" dark expand="md">
-        <NavbarBrand href="/"><img src={Logo} className="img-fluid"alt="error"/><p style={{width:'20',alignContent:'center',fontSize:'12px'}}>Jungle walks Base Camp</p></NavbarBrand>
+        <NavbarBrand href="/"><img src={Logo} className="img-fluid"alt="error"/></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
