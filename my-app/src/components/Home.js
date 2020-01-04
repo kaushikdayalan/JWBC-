@@ -1,55 +1,46 @@
 import React,{Component} from 'react'
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Menu from '../components/Menu'
 import '../components/home.css' 
 import longshot from '../assets/longshot.png'
 import whyUs from '../assets/WHYUS.jpg'
 import WwCarousel from './WwCarousel'
+import FooterMenu from './FooterMenu'
+
 class Home extends Component{
     render(){
         return(
-            <div> 
-              
-                <section>
-                <header class="masthead">
-                <Menu></Menu>
-                    <div class="container h-100">
-                        <div class="row h-100 align-items-center">
-                            <div class="col-12 text-right" style={{top:'100px',left:'60px'}}>
-                                <h1 className="font-main">Welcome to Jungle Walks Base Camp</h1>
-                                    <p class="lead">Wild is Calling! Where are you?</p>
-                                    <button className="btn btn-secondary btn-lg" href="#contact-us">Know more</button>
-                            </div>
-                        </div>
-                    </div>
-                </header>
-                </section>
+            <div>
+    <div className="container-fluid">
+        <Menu/>
+    </div>
                 <section>
                     <div style={{paddingTop:'70px',paddingBottom:'100px'}}>
                     <h1 className="heading" align='center'>The Jungle Walks Base Camp</h1>
                     </div>
                     <div align='center'style={{paddingBottom:'50px'}}>
-                    <img src={longshot}class="img-fluid"style={{overflow:'hidden',paddingLeft:'50px',paddingTop:'20px',height:'400px'}}
+                    <img src={longshot}className="img-fluid"style={{overflow:'hidden',paddingLeft:'50px',paddingTop:'20px',height:'400px'}}
                     width='1250px'alt="error"></img>
                     </div>
-                    <div class="container">
+                    <div className="container">
                         <h4 className="heading" align="center" style={{paddingBottom:'40px'}}>Our location by the forest, African styled 
                         tented accommodation and highly personalized activities, allow us to give you a 
                         true and unique wildlife experience.</h4>
-                        <div class="row" align='center'>
-                        <div class="col-sm">
-                            <p>Serene and tranquil through the day while exciting and adventurous at night; 
+                        <div className="row">
+                        <div className="col-sm">
+                            <p align='center'>Serene and tranquil through the day while exciting and adventurous at night; 
                             the Bison Resort is the first of its kind in India that offers something rustic and luxurious at the 
                             very edge of adventure.</p>
-                            <p>‘The Bison is situated at the confluence of the Bandipur and Nagarhole National Parks, 
+                            <p align='center'>‘The Bison is situated at the confluence of the Bandipur and Nagarhole National Parks, 
                                 on the shores of the Kabini River in Karnataka (West of Mysore).</p>
-                            <p>A mix between a rustic African wildlife tented camp and the old hunting lodges of the Raj, 
+                            <p align='center'>A mix between a rustic African wildlife tented camp and the old hunting lodges of the Raj, 
                                 The Bison offers a beautiful balance of luxury amidst wilderness.</p>
                         </div>
-                        <div class="col-sm">
-                            <p>The Bison is the only property in the area that overlooks the tourism zone of Nagarhole
+                        <div className="col-sm"align='center'>
+                            <p align='center'>The Bison is the only property in the area that overlooks the tourism zone of Nagarhole
                                 Tiger Reserve. We are closest to the gate and offer fabulous game viewing, both from camp and on safari.</p>
-                            <p>With our spectacular location, accommodation and services, we promise you a one of a kind exclusive wilderness experience.</p>
-                            <p>Curl up in the cosy deck and gaze into the forests at sunset, have a drink by the crackling 
+                            <p align='center'>With our spectacular location, accommodation and services, we promise you a one of a kind exclusive wilderness experience.</p>
+                            <p align='center'>Curl up in the cosy deck and gaze into the forests at sunset, have a drink by the crackling 
                                 fire and share your stories of the forest, dine in the jungle under a blanket of stars, 
                                 soak in the romance of a midnight boat ride or thrill yourself with tracking down a big cat on safari. 
                                 As we at The Bison always say, “If you are Game, so are we.”</p>
@@ -79,9 +70,9 @@ class Home extends Component{
                                     offer you activities no one else can.</h4>
                                 </div>
                             </div> 
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-sm" > 
+                            <div className="container">
+                                <div className="row">
+                                    <div className="col-sm" > 
                                         <h3 className="heading"align="center"style={{color:'black'}}><strong>Team & Location</strong></h3>
                                         <p align="center">Watching elephants graze on the opposite bank from the Observation Deck 
                                             (equipped with binoculars and telescopes) is not uncommon. Herds of gaur 
@@ -95,7 +86,7 @@ class Home extends Component{
                                             Us section.<br></br><br></br><button>About us</button></p>
                                         
                                     </div>
-                                    <div class="col-sm">
+                                    <div className="col-sm">
                                         <h3 className="heading"align="center"style={{color:'black'}}><strong>Unique Accommodation</strong></h3>
                                         <p align="center">The Bison takes pride in being the only African styled Tented Camp in South India.
                                          Our rooms are spacious and cosy and come with a stunning view. We offer an entirely new experience 
@@ -108,7 +99,7 @@ class Home extends Component{
                                         <p align="center">Spoil yourself, come to the jungles and experience something extraordinary.
                                         <br></br><br></br><button>View Accommodation</button></p>
                                     </div>
-                                    <div class="col-sm">
+                                    <div className="col-sm">
                                         <h3 className="heading"align="center"style={{color:'black'}}><strong>Special Activities</strong></h3>
                                         <p align="center">As mentioned above, The Bison’s unmatched view and low inventory allows 
                                         us to offer exclusive and highly personalized activities. These activities will strongly 
@@ -129,6 +120,9 @@ class Home extends Component{
                     <h1 className="heading" align="center" style={{paddingBottom:'50px',paddingTop:'50px'}}>Wild Watching</h1>
                     <WwCarousel/>
                     </div>
+                </div>
+                <div>
+                    <FooterMenu/>
                 </div>
             </div>
         )

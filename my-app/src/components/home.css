@@ -1,27 +1,35 @@
+.container1{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
 .masthead {
 	height: 100vh;
-	min-height: 500px;
+  min-height: 200px;
 	background-image: url('../assets/lake.jpg');
   background-size: cover;
+  width: 100%;
   background-blend-mode: overlay;
-  background-position: center;
+  background-position: inherit;
   background-repeat: no-repeat;
 }
 
 .font-main{
   font-family:"Nixie One", Arial, Helvetica, sans-serif;
-  color: white;
-  font-weight: 500;
+  color: whitesmoke;
+  font-weight: initial;
   letter-spacing: 0px;
   font-size: 37px;
   font-style: normal;
 }
 
 .lead{
-  color: white;
-  font-size: 25px;
-  font-weight: 200;
-  font-style: normal;
+  color: whitesmoke;
+  font-weight: initial;
+  font-size: 29px;
+  text-align: center;
+  
 }
 
 .heading{
@@ -41,6 +49,7 @@
 
 .why-us-bg{
   background-color:  #f0f0ed;
+  width: 100%;
 }
 
 .seperator{
@@ -50,3 +59,16 @@
   width: 100%;
   overflow: hidden;
 }
+
+@media screen and (max-width:800px){
+  .masthead {
+    height: auto;
+    min-height: 200px;
+    background-image: url('../assets/lake.jpg');
+    background-size: cover;
+    width: 100%;
+    background-blend-mode: overlay;
+    background-position: inherit;
+    background-repeat: no-repeat;
+  } 
+  }
