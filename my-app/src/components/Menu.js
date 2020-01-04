@@ -1,8 +1,8 @@
 import React, {Component } from 'react';
 import './menu.css'
 import NavbarMobile from './NavbarMobile'
-
-import { Nav, NavItem, NavLink } from 'reactstrap';
+import Logo from '../assets/logoplain.png'
+import { Nav, NavItem, NavLink, Media } from 'reactstrap';
 
 class Menu extends Component{
   constructor(){
@@ -61,6 +61,9 @@ class Menu extends Component{
           <NavLink href="#">CONTACT US</NavLink>
         </NavItem>
       </Nav>
+      <Media left href="#">
+        <Media src={Logo} className="img-fluid" alt="Generic placeholder image" />
+      </Media>
       </header>
           </div>
         )
