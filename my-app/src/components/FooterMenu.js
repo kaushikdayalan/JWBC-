@@ -22,7 +22,7 @@ const FooterMenu = ()=>{
             </div>
         </form>
         <div className="border-line" style={{width:'auto', minWidth:'100px'}}></div>
-        <div>
+        <div className="col-xl">
             <Nav className="justify-content-center">
                 <NavItem>
                     <NavLink href="#asdas">The - Team Hug Entertainment</NavLink>
@@ -43,6 +43,35 @@ const FooterMenu = ()=>{
                     <NavLink href="#">Jesus Walks Before Christ International Ministers</NavLink>
                 </NavItem>
             </Nav>
+        </div>
+        <div className="border-line" style={{width:'auto', minWidth:'100px'}}></div>
+        <div>
+        <Nav className="justify-content-center">
+        <NavItem>
+          <NavLink href="#">HOME</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink href="#">ABOUT US</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink href="#">PROJECTS</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink href="#">ACCOMMODATION</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink href="#">GALLERY</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink href="#">BLOG</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink href="#">EVENTS</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink href="#">CONTACT US</NavLink>
+        </NavItem>
+      </Nav>
         </div>
         <div className="border-line" style={{width:'auto', minWidth:'100px'}}></div>
     </div>
