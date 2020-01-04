@@ -4,7 +4,7 @@ import './FooterMenu.css'
 import footerLogo from '../assets/footerLogo.jpg'
 const FooterMenu = ()=>{
     return(
-    <div className="container"> 
+    <div className="container" style={{paddingTop:'50px'}}> 
         <div  className="head">
             <p align="center">HEAR FROM US</p>
         </div>
@@ -49,10 +49,10 @@ const FooterMenu = ()=>{
         <div>
         <Nav className="justify-content-center footer-padding">
         <NavItem>
-          <NavLink href="#">HOME</NavLink>
+          <NavLink href="/">HOME</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#">ABOUT US</NavLink>
+          <NavLink href="/About-us">ABOUT US</NavLink>
         </NavItem>
         <NavItem>
           <NavLink href="#">PROJECTS</NavLink>
