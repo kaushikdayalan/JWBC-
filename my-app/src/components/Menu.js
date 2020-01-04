@@ -37,10 +37,10 @@ class Menu extends Component{
         <header className="masthead">
           <Nav className="justify-content-end">
         <NavItem>
-          <NavLink href="#">HOME</NavLink>
+          <NavLink href="/">HOME</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#">ABOUT US</NavLink>
+          <NavLink href="/About-us">ABOUT US</NavLink>
         </NavItem>
         <NavItem>
           <NavLink href="#">PROJECTS</NavLink>
@@ -61,7 +61,7 @@ class Menu extends Component{
           <NavLink href="#">CONTACT US</NavLink>
         </NavItem>
       </Nav>
-      <Media left href="#">
+      <Media left href="/">
         <Media src={Logo} className="img-fluid" alt="error"/>
       </Media>
       </header>

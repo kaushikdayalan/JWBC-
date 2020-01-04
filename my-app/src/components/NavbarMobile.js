@@ -24,21 +24,21 @@ const NavbarMobile = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/components/">HOME</NavLink>
+              <NavLink href="/">HOME</NavLink>
             </NavItem>            <NavItem>
-              <NavLink href="/components/">ABOUT US</NavLink>
+              <NavLink href="/About-us">ABOUT US</NavLink>
             </NavItem>            <NavItem>
-              <NavLink href="/components/">PROJECTS</NavLink>
+              <NavLink href="#">PROJECTS</NavLink>
             </NavItem>            <NavItem>
-              <NavLink href="/components/">ACCOMMODATION</NavLink>
+              <NavLink href="#">ACCOMMODATION</NavLink>
             </NavItem>            <NavItem>
-              <NavLink href="/components/">GALLERY</NavLink>
+              <NavLink href="#">GALLERY</NavLink>
             </NavItem>            <NavItem>
-              <NavLink href="/components/">BLOG</NavLink>
+              <NavLink href="#">BLOG</NavLink>
             </NavItem>            <NavItem>
-              <NavLink href="/components/">EVENTS</NavLink>
+              <NavLink href="#">EVENTS</NavLink>
             </NavItem>            <NavItem>
-              <NavLink href="/components/">CONTACT US</NavLink>
+              <NavLink href="#">CONTACT US</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

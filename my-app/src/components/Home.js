@@ -48,7 +48,7 @@ class Home extends Component{
                         </div>
                     </div>
                 </section>
-                <section>
+                <section> 
                     <div className="why-us-bg">
                         <div className="container" style={{paddingTop:'80px'}}>
                             <div className="row">
