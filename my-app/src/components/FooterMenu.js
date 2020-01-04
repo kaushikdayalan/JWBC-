@@ -78,7 +78,8 @@ const FooterMenu = ()=>{
         <div class="container footer-padding">
   <div class="row justify-content-center">
     <div class="col-md-auto">
-        <img src={footerLogo} alt="error"/>
+      <br></br>
+        <img src={footerLogo} width={280} alt="error"/>
     </div>
   </div>
 </div>
