@@ -6,13 +6,10 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText
+  NavLink
 } from 'reactstrap';
+import Lake from '../assets/lake.jpg'
+import Logo from '../assets/LogoTest.png'
 
 const NavbarMobile = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,38 +18,32 @@ const NavbarMobile = (props) => {
 
   return (
     <div>
-      <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">reactstrap</NavbarBrand>
+      <Navbar color="dark" dark expand="md">
+        <NavbarBrand href="/"><img src={Logo} alt="error"/></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/components/">Components</NavLink>
+              <NavLink href="/components/">HOME</NavLink>
+            </NavItem>            <NavItem>
+              <NavLink href="/components/">ABOUT US</NavLink>
+            </NavItem>            <NavItem>
+              <NavLink href="/components/">PROJECTS</NavLink>
+            </NavItem>            <NavItem>
+              <NavLink href="/components/">ACCOMMODATION</NavLink>
+            </NavItem>            <NavItem>
+              <NavLink href="/components/">GALLERY</NavLink>
+            </NavItem>            <NavItem>
+              <NavLink href="/components/">BLOG</NavLink>
+            </NavItem>            <NavItem>
+              <NavLink href="/components/">EVENTS</NavLink>
+            </NavItem>            <NavItem>
+              <NavLink href="/components/">CONTACT US</NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
-            </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Options
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>
-                  Option 1
-                </DropdownItem>
-                <DropdownItem>
-                  Option 2
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>
-                  Reset
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
           </Nav>
-          <NavbarText>Simple Text</NavbarText>
         </Collapse>
       </Navbar>
+      <img src={Lake} alt="error" className="img-fluid"/>
     </div>
   );
 }

@@ -11,11 +11,8 @@ class Home extends Component{
     render(){
         return(
             <div>
-                
     <div className="container-fluid">
-      <header className="masthead">
         <Menu/>
-      </header>
     </div>
                 <section>
                     <div style={{paddingTop:'70px',paddingBottom:'100px'}}>
