@@ -1,29 +1,43 @@
-import React, { useState } from 'react';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  Media,
-  Nav,
-  NavItem,
-  NavLink,
-  NavbarBrand,
-} from 'reactstrap';
+import React, {Component } from 'react';
 import './menu.css'
-import LogoFinal from '../assets/LogoTest.png'
+import NavbarMenu from './NavbarMobile'
 
-const Menu= (props) => {
-  const [isOpen, setIsOpen] = useState(false);
+class Menu extends Component{
+  constructor(){
+    super()
+    this.state={
+      width:false,
+    }  
+  }
 
-  const toggle = () => setIsOpen(!isOpen);
+  getWidth(){
+    if(window.innerWidth<500){
+      this.setState({width:true});
+    }
+  }
+  componentDidMount(){
+    this.getWidth();
+  }
 
-  return (
-    <div className="container-fluid">
-      <header className="masthead">
-        
-      </header>
-    </div>
-  );
+  render(){
+    const {width} = this.state;
+
+    if(width){
+      return(
+        <div>
+          <NavbarMenu/>
+        </div>
+      )
+      }
+      else{
+        return(
+          <div>
+
+          </div>
+        )
+    }
+  }
 }
+
 
 export default Menu;

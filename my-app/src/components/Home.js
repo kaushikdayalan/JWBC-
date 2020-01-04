@@ -7,11 +7,16 @@ import whyUs from '../assets/WHYUS.jpg'
 import WwCarousel from './WwCarousel'
 import FooterMenu from './FooterMenu'
 
-class Home extends Component{ //ok now I will fix the image 
+class Home extends Component{
     render(){
         return(
             <div>
-                <Menu></Menu>
+                
+    <div className="container-fluid">
+      <header className="masthead">
+        <Menu/>
+      </header>
+    </div>
                 <section>
                     <div style={{paddingTop:'70px',paddingBottom:'100px'}}>
                     <h1 className="heading" align='center'>The Jungle Walks Base Camp</h1>
