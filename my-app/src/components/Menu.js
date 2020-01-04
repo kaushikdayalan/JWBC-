@@ -62,7 +62,7 @@ class Menu extends Component{
         </NavItem>
       </Nav>
       <Media left href="#">
-        <Media src={Logo} className="img-fluid" alt="Generic placeholder image" />
+        <Media src={Logo} className="img-fluid" alt="error"/>
       </Media>
       </header>
           </div>

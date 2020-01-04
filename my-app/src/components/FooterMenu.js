@@ -1,6 +1,7 @@
 import React from 'react'
 import {Nav, NavItem, NavLink} from 'reactstrap';
 import './FooterMenu.css'
+import footerLogo from '../assets/footerLogo.jpg'
 const FooterMenu = ()=>{
     return(
     <div className="container"> 
@@ -23,7 +24,7 @@ const FooterMenu = ()=>{
         </form>
         <div className="border-line" style={{width:'auto', minWidth:'100px'}}></div>
         <div className="col-xl">
-            <Nav className="justify-content-center">
+            <Nav className="justify-content-center footer-padding">
                 <NavItem>
                     <NavLink href="#asdas">The - Team Hug Entertainment</NavLink>
                 </NavItem>
@@ -46,7 +47,7 @@ const FooterMenu = ()=>{
         </div>
         <div className="border-line" style={{width:'auto', minWidth:'100px'}}></div>
         <div>
-        <Nav className="justify-content-center">
+        <Nav className="justify-content-center footer-padding">
         <NavItem>
           <NavLink href="#">HOME</NavLink>
         </NavItem>
@@ -74,6 +75,13 @@ const FooterMenu = ()=>{
       </Nav>
         </div>
         <div className="border-line" style={{width:'auto', minWidth:'100px'}}></div>
+        <div class="container footer-padding">
+  <div class="row justify-content-md-center">
+    <div class="col-md-auto">
+        <img src={footerLogo} alt="error"/>
+    </div>
+  </div>
+</div>
     </div>
     )
 }
