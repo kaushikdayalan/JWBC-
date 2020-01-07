@@ -28,7 +28,7 @@ const NavbarMobile = (props) => {
             </NavItem>            <NavItem>
               <NavLink href="/About-us">ABOUT US</NavLink>
             </NavItem>            <NavItem>
-              <NavLink href="#">PROJECTS</NavLink>
+              <NavLink href="/Projects">PROJECTS</NavLink>
             </NavItem>            <NavItem>
               <NavLink href="#">ACCOMMODATION</NavLink>
             </NavItem>            <NavItem>
@@ -38,7 +38,7 @@ const NavbarMobile = (props) => {
             </NavItem>            <NavItem>
               <NavLink href="#">EVENTS</NavLink>
             </NavItem>            <NavItem>
-              <NavLink href="#">CONTACT US</NavLink>
+              <NavLink href="/Contact-us">CONTACT US</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

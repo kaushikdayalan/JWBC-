@@ -1,3 +1,13 @@
+.mastheadAboutus{
+	height: 100vh;
+  min-height: 200px;
+	background-image: url('../assets/lake.jpg');
+  background-size: cover;
+  width: 100%;
+  background-blend-mode: overlay;
+  background-position: inherit;
+  background-repeat: no-repeat;
+}
 
 .heading{
     font-family:"Nixie One", Arial, Helvetica, sans-serif;
@@ -16,7 +26,7 @@
     color: black;
     padding-bottom: 70px;
     border-bottom: 1px solid black;
-}
+} 
 
 .sub-text{
     font-family:"Nixie One", Arial, Helvetica, sans-serif;
@@ -48,4 +58,17 @@
   background-color:  #f0f0ed;
   width: 100%;
   padding-bottom: 50px;
+}
+
+@media screen and (max-width:800px){
+    .mastheadAboutus {
+      height: auto;
+      min-height: 200px;
+      background-image: url('../assets/lake.jpg');
+      background-size: cover;
+      width: 100%;
+      background-blend-mode: overlay;
+      background-position: inherit;
+      background-repeat: no-repeat;
+    } 
 }

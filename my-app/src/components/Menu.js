@@ -34,7 +34,6 @@ class Menu extends Component{
       else{
         return(
           <div>
-        <header className="masthead">
           <Nav className="justify-content-end">
         <NavItem>
           <NavLink href="/">HOME</NavLink>
@@ -43,7 +42,7 @@ class Menu extends Component{
           <NavLink href="/About-us">ABOUT US</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#">PROJECTS</NavLink>
+          <NavLink href="/Projects">PROJECTS</NavLink>
         </NavItem>
         <NavItem>
           <NavLink href="#">ACCOMMODATION</NavLink>
@@ -58,13 +57,12 @@ class Menu extends Component{
           <NavLink href="#">EVENTS</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#">CONTACT US</NavLink>
+          <NavLink href="/Contact-us">CONTACT US</NavLink>
         </NavItem>
       </Nav>
       <Media left href="/">
         <Media src={Logo} className="img-fluid" alt="error"/>
       </Media>
-      </header>
           </div>
         )
     }

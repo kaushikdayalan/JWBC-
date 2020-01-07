@@ -28,7 +28,9 @@ class AboutUs extends Component{
         const {width}=this.state
         return(
             <div className="container-fluid">
-                <Menu></Menu>
+                <header className="mastheadAboutus">
+                    <Menu/>
+                </header>
                 <div className="container-fluid">
                     <div className="row" style={{paddingTop:'100px',paddingBottom:'20px'}}>
                         <div className="col-sm" style={{paddingTop:'30px',paddingBottom:'40px',paddingRight:'50px'}}>
@@ -44,7 +46,7 @@ class AboutUs extends Component{
                                  }
                     </div>
                     <div className="container">
-                        <div className="row">
+                        <div className="row"> 
                             <div className="col-sm">
                                 <p className="p1">
                                 Our directors have spent years in the bush and were the 
