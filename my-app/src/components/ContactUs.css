@@ -1,0 +1,53 @@
+.mastheadContactus {
+	height: 100vh;
+  min-height: 200px;
+  background-size: cover;
+  background-image: url('../assets/lake.jpg');
+  width: 100%;
+  background-blend-mode: overlay;
+  background-position: inherit;
+  background-repeat: no-repeat;
+}
+
+.contact-us-bg{
+    padding-top: 100px;
+    background-color: #d19c70;
+    margin-bottom: 100px;
+    border-radius: 12px;
+    padding-bottom: 110px!important;
+}
+
+.contact-us-head{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-bottom: 1px solid white;
+    color: white;
+    font-family:"Nixie One", Arial, Helvetica, sans-serif;
+    border-style: double;
+    font-size: 55px;
+  }
+
+.contact-margin{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+@media screen and (max-width:800px){
+    .contact-margin{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .mastheadContactus{
+      height: auto;
+      min-height: 200px;
+      background-image: url('../assets/lake.jpg');
+      background-size: cover;
+      width: 100%;
+      background-blend-mode: overlay;
+      background-position: inherit;
+      background-repeat: no-repeat;
+    } 
+}

@@ -26,22 +26,22 @@ const FooterMenu = ()=>{
         <div className="col-xl">
             <Nav className="justify-content-center footer-padding">
                 <NavItem>
-                    <NavLink href="#asdas">The - Team Hug Entertainment</NavLink>
+                    <NavLink href="#asdas"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >The - Team Hug Entertainment</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="#">Hug - Humanity Under God</NavLink>
+                    <NavLink href="#"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >Hug - Humanity Under God</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="#">BLW - Bangalore Live Wire</NavLink>
+                    <NavLink href="#"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >BLW - Bangalore Live Wire</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="#">The Hug Studio</NavLink>
+                    <NavLink href="#"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >The Hug Studio</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="#">The Good News Gospel Network</NavLink>
+                    <NavLink href="#"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >The Good News Gospel Network</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="#">Jesus Walks Before Christ International Ministers</NavLink>
+                    <NavLink href="#"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}}>Jesus Walks Before Christ International Ministers</NavLink>
                 </NavItem>
             </Nav>
         </div>
@@ -49,28 +49,28 @@ const FooterMenu = ()=>{
         <div>
         <Nav className="justify-content-center footer-padding">
         <NavItem>
-          <NavLink href="/">HOME</NavLink>
+          <NavLink style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} href="/">HOME</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="/About-us">ABOUT US</NavLink>
+          <NavLink href="/About-us" style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >ABOUT US</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#">PROJECTS</NavLink>
+          <NavLink href="#"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >PROJECTS</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#">ACCOMMODATION</NavLink>
+          <NavLink href="#"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >ACCOMMODATION</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#">GALLERY</NavLink>
+          <NavLink href="#"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >GALLERY</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#">BLOG</NavLink>
+          <NavLink href="#"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >BLOG</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#">EVENTS</NavLink>
+          <NavLink href="#"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >EVENTS</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#">CONTACT US</NavLink>
+          <NavLink href="#"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >CONTACT US</NavLink>
         </NavItem>
       </Nav>
         </div>

@@ -12,7 +12,9 @@ class Home extends Component{
         return(
             <div>
     <div className="container-fluid">
-        <Menu/>
+        <header className="masthead">
+            <Menu/>
+        </header>
     </div>
                 <section>
                     <div style={{paddingTop:'70px',paddingBottom:'100px'}}>

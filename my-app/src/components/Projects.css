@@ -1,0 +1,25 @@
+.mastheadProject {
+	height: 100vh;
+  min-height: 200px;
+  background-size: cover;
+  background-image: url('../assets/projectMasthead.png');
+  width: 100%;
+  background-blend-mode: overlay;
+  background-position: inherit;
+  background-repeat: no-repeat;
+}
+
+
+
+@media screen and (max-width:800px){
+    .mastheadProject{
+      height: auto;
+      min-height: 200px;
+      background-image: url('../assets/projectMasthead.png');
+      background-size: cover;
+      width: 100%;
+      background-blend-mode: overlay;
+      background-position: inherit;
+      background-repeat: no-repeat;
+    } 
+}
