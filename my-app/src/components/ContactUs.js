@@ -41,7 +41,7 @@ class ContactUs extends Component{
                                 <label className="col-sm-2 col-form-label"
                                 style={{color:'white',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}}>
                                     Your message</label>
-                                <div className="col-sm-7">
+                                <div className="col-sm-4">
                                     <textarea className="form-control" id="Message"></textarea>
                                 </div>
                             </div>

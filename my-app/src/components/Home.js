@@ -6,14 +6,42 @@ import longshot from '../assets/longshot.png'
 import whyUs from '../assets/WHYUS.jpg'
 import WwCarousel from './WwCarousel'
 import FooterMenu from './FooterMenu'
+import {Media} from 'reactstrap'
+import Logo from '../assets/logoplain.png'
+import Lake from '../assets/lake.jpg'
 
 class Home extends Component{
+
+    constructor(){
+        super()
+        this.state={
+            width:false
+        }
+    }
+
+    getWidth(){
+        if(window.innerWidth <600){
+            this.setState({width:true});
+        }
+    }
+
+    componentDidMount(){
+        this.getWidth();
+    }
+
     render(){
+        const {width} = this.state;
         return(
             <div>
     <div className="container-fluid">
         <header className="masthead">
             <Menu/>
+            {width?
+            <img src={Lake} alt="error" className="img-fluid"/>:
+            <Media left href="/">
+                <Media src={Logo} className="img-fluid" alt="error"/>
+            </Media>
+            }
         </header>
     </div>
                 <section>

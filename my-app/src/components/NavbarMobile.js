@@ -8,7 +8,6 @@ import {
   NavItem,
   NavLink
 } from 'reactstrap';
-import Lake from '../assets/lake.jpg'
 import Logo from '../assets/logomobile.png'
 
 const NavbarMobile = (props) => {
@@ -43,7 +42,6 @@ const NavbarMobile = (props) => {
           </Nav>
         </Collapse>
       </Navbar>
-      <img src={Lake} alt="error" className="img-fluid"/>
     </div>
   );
 }
