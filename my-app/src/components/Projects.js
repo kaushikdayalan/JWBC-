@@ -1,6 +1,6 @@
 import React,{Component} from 'react'
 import Menu from './Menu'
-import '../components/Accommodation.css'
+import '../components/Projects.css'
 import castleRock from '../assets/Castle Rocks.jpg'
 import farmAndEstates from '../assets/farmAndEstate.jpg'
 import FooterMenu from './FooterMenu'
