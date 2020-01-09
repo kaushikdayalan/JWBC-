@@ -1,7 +1,7 @@
 import React from 'react'
 import {Nav, NavItem, NavLink} from 'reactstrap';
 import './FooterMenu.css'
-import footerLogo from '../assets/footerLogo.jpg'
+import footerLogo from '../assets/logoFooter.jpg'
 const FooterMenu = ()=>{
     return(
     <div className="container" style={{paddingTop:'50px'}}> 
