@@ -1,8 +1,7 @@
 import React,{Component} from 'react'
 import Menu from './Menu'
 import '../components/Accomodation.css'
-import castleRock from '../assets/Castle Rocks.jpg'
-import farmAndEstates from '../assets/farmAndEstate.jpg'
+import {Carousel} from 'reactstrap'
 import FooterMenu from './FooterMenu'
 
 
@@ -28,6 +27,7 @@ class Acc extends Component{
                             
                         </div>
                         <div className="col-sm-5 card-padding" style={{paddingBottom:'40px'}}>
+                            <div>
                         <Carousel>
   <Carousel.Item>
     <img
@@ -65,6 +65,7 @@ class Acc extends Component{
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
+</div>
                         </div>
                         <h1 className="AccomHead">A Sunil Fernandes Initiative</h1>
                     </div>
