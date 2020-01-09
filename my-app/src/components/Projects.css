@@ -1,25 +1,10 @@
-.mastheadProject {
-	height: 100vh;
-  min-height: 200px;
-  background-size: cover;
-  background-image: url('../assets/projectMasthead.png');
-  width: 100%;
-  background-blend-mode: overlay;
-  background-position: inherit;
-  background-repeat: no-repeat;
-}
-
-
-
-@media screen and (max-width:800px){
-    .mastheadProject{
-      height: auto;
-      min-height: 200px;
-      background-image: url('../assets/projectMasthead.png');
-      background-size: cover;
-      width: 100%;
-      background-blend-mode: overlay;
-      background-position: inherit;
-      background-repeat: no-repeat;
-    } 
+.head{
+  font-size: 17px;
+  text-transform: uppercase;
+  letter-spacing: 4.59px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  padding-bottom: 10px;
+  display: block;
+  color: #667382;
 }

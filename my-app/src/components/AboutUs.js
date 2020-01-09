@@ -5,6 +5,9 @@ import FooterMenu from './FooterMenu';
 import '../components/AboutUs.css'
 import LoveOftheWild from '../assets/loveofthewild.png'
 import teamColour from '../assets/teamcolour.png'
+import {Media} from 'reactstrap'
+import Logo from '../assets/logoplain.png'
+import Lake from '../assets/lake.jpg'
 class AboutUs extends Component{
     
     constructor(){
@@ -30,6 +33,12 @@ class AboutUs extends Component{
             <div className="container-fluid">
                 <header className="mastheadAboutus">
                     <Menu/>
+                    {width? 
+                        <img src={Lake} alt="error" className="img-fluid"/>:     
+                    <Media left href="/">
+                        <Media src={Logo} className="img-fluid" alt="error"/>
+                    </Media>
+                    }
                 </header>
                 <div className="container-fluid">
                     <div className="row" style={{paddingTop:'100px',paddingBottom:'20px'}}>

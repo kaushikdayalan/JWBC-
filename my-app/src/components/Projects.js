@@ -4,10 +4,13 @@ import '../components/Projects.css'
 class Porjects extends Component{
     render(){
         return(
-            <div>
-                <header className="mastheadProject">
+            <div className="container-fluid">
+                <header>
                     <Menu/>
                 </header>
+                <div className="container">
+                    
+                </div>
             </div>
         )
     }
