@@ -6,7 +6,7 @@ import farmAndEstates from '../assets/farmAndEstate.jpg'
 import FooterMenu from './FooterMenu'
 
 
-class Accomodation extends Component{
+class Projects extends Component{
     render(){
         return(
             <div className="container-fluid">
@@ -25,13 +25,13 @@ class Accomodation extends Component{
                     </div>
                     <div className="row justify-content-md-center">
                         <div className="col-sm-5 card-padding">
-                            <div className="card">
-                                <img src={castleRock} className="card-img-top" alt="error"></img>
+                            <div className="card" style={{border:'None'}}>
+                                <img src={castleRock} className="card-img-top image-edges" alt="error"></img>
                             </div>
                         </div>
                         <div className="col-sm-5 card-padding" style={{paddingBottom:'40px'}}>
-                            <div className="card">
-                                <img src={farmAndEstates} className="card-img-top" alt="error"></img>
+                            <div className="card" style={{border:'None'}}>
+                                <img src={farmAndEstates} className="card-img-top image-edges" alt="error"></img>
                             </div>
                         </div>
                         <h1 className="AccomHead">A Sunil Fernandes Initiative</h1>
@@ -43,4 +43,4 @@ class Accomodation extends Component{
     }
 }
 
-export default Accomodation;
+export default Projects;
