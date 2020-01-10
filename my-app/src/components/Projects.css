@@ -17,6 +17,13 @@
   font-size: 16px;
 }
 
+.image-edges{
+  border-top-left-radius: calc(1rem - 1px);
+  border-top-right-radius: calc(1rem - 1px);
+  border-bottom-left-radius: calc(1rem - 1px);
+  border-bottom-right-radius: calc(1rem - 1px);
+}
+
 .card-padding{
   padding-right: 40px;
 }

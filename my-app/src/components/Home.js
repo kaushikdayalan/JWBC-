@@ -49,7 +49,7 @@ class Home extends Component{
                     <h1 className="heading" align='center'>The Jungle Walks Base Camp</h1>
                     </div>
                     <div align='center'style={{paddingBottom:'50px'}}>
-                    <img src={longshot}className="img-fluid"style={{overflow:'hidden',paddingLeft:'50px',paddingTop:'20px',height:'400px'}}
+                    <img src={longshot}className="img-fluid"style={{overflow:'hidden',paddingTop:'20px',height:'400px'}}
                     width='1250px'alt="error"></img>
                     </div>
                     <div className="container">

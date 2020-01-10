@@ -34,7 +34,7 @@
 }
 
 .border-line{
-    border-bottom:1px solid #d5d6d1;
+    border-bottom:1px solid #d5d6d1!important;
 }
 
 .nav-link .footer-color{

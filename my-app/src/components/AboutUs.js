@@ -4,7 +4,7 @@ import Menu from './Menu';
 import FooterMenu from './FooterMenu';
 import '../components/AboutUs.css'
 import LoveOftheWild from '../assets/loveofthewild.png'
-import teamColour from '../assets/teamcolour.png'
+import teamColour from '../assets/s.png'
 import {Media} from 'reactstrap'
 import Logo from '../assets/logoplain.png'
 import Lake from '../assets/lake.jpg'
@@ -93,7 +93,8 @@ class AboutUs extends Component{
                 </div>
                 <div className="about-team">
                     <div className="container" style={{paddingTop:'50px'}}>
-                        <h1 className="text-center heading2">MEET THE TEAM AT JWBC</h1>
+                        <h1 className="text-center heading2">MEET THE FOUNDER, WILD EVANGELIST <br></br>
+                        <i className="founder-name">"Sunil Fernandes"</i></h1>
                         <h3 className="text-center sub-text" style={{paddingTop:"50px"}}>Our camp is full of soul and eccentric characters.
                          The team have been carefully put together and are sure to give you a lively and fun wildlife holiday.</h3>
                     </div>
