@@ -29,9 +29,9 @@ const NavbarMobile = (props) => {
             </NavItem>            <NavItem>
               <NavLink href="/Projects">PROJECTS</NavLink>
             </NavItem>            <NavItem>
-              <NavLink href="#">ACCOMMODATION</NavLink>
+              <NavLink href="/Accomodation">ACCOMMODATION</NavLink>
             </NavItem>            <NavItem>
-              <NavLink href="#">GALLERY</NavLink>
+              <NavLink href="/Gallery">GALLERY</NavLink>
             </NavItem>            <NavItem>
               <NavLink href="#">BLOG</NavLink>
             </NavItem>            <NavItem>
