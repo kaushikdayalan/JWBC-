@@ -1,5 +1,5 @@
 import React,{Component} from 'react'
-import '../componentsAccomodation.css'
+import '../components/Accomodation.css'
 
 class Accomodation extends Component{
   render(){

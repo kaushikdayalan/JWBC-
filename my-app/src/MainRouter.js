@@ -12,7 +12,7 @@ const MainRouter =()=>(
             <Route exact path="/" component={Home}/>
             <Route exact path="/About-us" component={AboutUs}/>
             <Route exact path="/Projects" component={Projects}/>
-            <Router exact path="/Accomodation" component={Accomodation}/>
+            <Route exact path="/Accomodation" component={Accomodation}/>
             <Route exact path="/Gallery" component={Gallery}/>
             <Route exact path="/Contact-us" component={ContactUs}/>
         </Switch>
