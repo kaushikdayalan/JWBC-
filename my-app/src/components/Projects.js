@@ -16,7 +16,7 @@ class Projects extends Component{
                 <div className="container">
                     <div className="row justify-content-md-center" style={{paddingTop:'100px'}}>
                         <div className="col-sm-7">
-                            <h1 className="AccomHead">
+                            <h1 className="ProjectHead">
                                 PROJECTS
                             </h1>
                             <p className="text-center content-style" style={{paddingBottom:'100px'}}>Here are some projects JWBC is working 
