@@ -24,7 +24,7 @@ class Accomodation extends Component{
             </div>
           </div>
           <div className="row justify-content-md-center">
-            <div className="col-sm-4">
+            <div className="col-sm-7">
               <Carousel1/>
             </div>
           </div>
@@ -56,7 +56,6 @@ class Accomodation extends Component{
             </div>
           </div>
           <div className="row justify-content-md-center">
-            
           </div>
         </div>
       </div>
