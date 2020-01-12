@@ -44,7 +44,7 @@ const Carousel1 = (props) => {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <img src={item.src} className="img-fluid image-car-edges car-image-size" alt={item.altText}/>
+        <img src={item.src} className="img-fluid image-car-edges" alt={item.altText}/>
       </CarouselItem>
     );
   });

@@ -5,7 +5,6 @@ import Carousel1 from './carousels/Carousel1'
 import Carousel2 from './carousels/carousel2'
 import Carousel3 from './carousels/Carousel3'
 import FooterMenu from './FooterMenu'
-import './carousels/carouselImg.css'
 class Accomodation extends Component{
   render(){
     return(

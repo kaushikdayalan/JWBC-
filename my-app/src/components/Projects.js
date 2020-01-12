@@ -8,7 +8,7 @@ import FooterMenu from './FooterMenu'
 
 class Projects extends Component{
     render(){
-        return(
+        return( 
             <div className="container-fluid">
                 <header>
                     <Menu/>

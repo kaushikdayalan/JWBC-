@@ -13,7 +13,7 @@ class Gallery extends Component{
                 </header>
                 <div className="container">
                     <div className="row justify-content-md-center" style={{paddingTop:'100px'}}>
-                        <div className="col-sm-6">
+                        <div className="col-sm-4">
                             <h1 className="GalleryHead">Gallery</h1>
                         </div>         
                     </div>    
