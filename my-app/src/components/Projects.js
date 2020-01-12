@@ -5,7 +5,6 @@ import castleRock from '../assets/Castle Rocks.jpg'
 import farmAndEstates from '../assets/farmAndEstate.jpg'
 import FooterMenu from './FooterMenu'
 
-
 class Projects extends Component{
     render(){
         return( 
