@@ -15,12 +15,16 @@ class Projects extends Component{
                 </header>
                 <div className="container">
                     <div className="row justify-content-md-center" style={{paddingTop:'100px'}}>
-                        <div className="col-sm-7">
+                        <div className="col-sm-4">
                             <h1 className="ProjectHead">
                                 PROJECTS
                             </h1>
-                            <p className="text-center content-style" style={{paddingBottom:'100px'}}>Here are some projects JWBC is working 
-                            on to make the experience of the jungle immersive.</p>
+                        </div>
+                    </div>
+                    <div className="row justify-content-md-center">
+                        <div className="col-sm-8">
+                        <p className="text-center content-style" style={{paddingBottom:'100px',paddingTop:'10px'}}>Here are 
+                        some projects JWBC is working on to make the experience of the jungle immersive.</p>
                         </div>
                     </div>
                     <div className="row justify-content-md-center">
