@@ -5,8 +5,6 @@ import FooterMenu from './FooterMenu';
 import '../components/AboutUs.css'
 import LoveOftheWild from '../assets/loveofthewild.png'
 import teamColour from '../assets/s.png'
-import {Media} from 'reactstrap'
-import Logo from '../assets/logoplain.png'
 import Lake from '../assets/lake.jpg'
 class AboutUs extends Component{
     
@@ -31,16 +29,17 @@ class AboutUs extends Component{
         const {width}=this.state
         return(
             <div className="container-fluid">
-                <header className="mastheadAboutus">
+                <header>
                     <Menu/>
                     {width? 
-                        <img src={Lake} alt="error" className="img-fluid"/>:     
-                    <Media left href="/">
-                        <Media src={Logo} className="img-fluid" alt="error"/>
-                    </Media>
-                    }
+                        <img src={Lake} alt="error" className="img-fluid"/>:""}
                 </header>
                 <div className="container-fluid">
+                    <div className="row justify-content-md-center" style={{paddingTop:'70px'}}>
+                        <div className="col-sm-3">
+                            <h1 className="AboutUsHead">About Us</h1>
+                        </div>
+                    </div>
                     <div className="row" style={{paddingTop:'100px',paddingBottom:'20px'}}>
                         <div className="col-sm" style={{paddingTop:'30px',paddingBottom:'40px',paddingRight:'50px'}}>
                             <h1 className="text-right heading">FOR THE LOVE</h1>

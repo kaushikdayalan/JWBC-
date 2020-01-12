@@ -75,9 +75,9 @@ const FooterMenu = ()=>{
       </Nav>
         </div>
         <div className="border-line" style={{width:'auto', minWidth:'100px'}}></div>
-        <div class="container footer-padding">
-  <div class="row justify-content-center">
-    <div class="col-md-auto">
+        <div className="container footer-padding">
+  <div className="row justify-content-center">
+    <div className="col-md-auto">
       <br></br>
       <div className="text-center">
         <img src={footerLogo}alt="error"/>

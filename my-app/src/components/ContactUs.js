@@ -45,6 +45,11 @@ class ContactUs extends Component{
                                     <textarea className="form-control" id="Message"></textarea>
                                 </div>
                             </div>
+                            <div className="from-group row justify-content-md-center">
+                                <div className="col-sm-4">
+                                    <input type="submit" className="form-control btn-secondary" placeholder="Submit"/>
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
