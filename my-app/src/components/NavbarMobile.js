@@ -18,7 +18,7 @@ const NavbarMobile = (props) => {
   return (
     <div>
       <Navbar color="dark" dark expand="md">
-        <NavbarBrand href="/"><img src={Logo} className="img-fluid"alt="error"/></NavbarBrand>
+        <NavbarBrand href="/"><img src={Logo} width="30px" className="img-fluid"alt="error"/></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>

@@ -1,16 +1,16 @@
 .navbar-light .navbar-nav .nav-link {
-    color:#e7b510fd;
+    color:#0f0c00fd;
     font-family: 'Lato',sans-serif;
     font-size: 14px;
     letter-spacing: initial;
-    font-weight: bold;
+    font-weight: bolder;
 }
 .nav-link{
-    color:#a58416fd;
+    color:#0c0901fd;
     font-family: 'Lato',sans-serif;
     font-size: 14px;
     letter-spacing: initial;
-    font-weight: bold;  
+    font-weight: bolder;  
 }
 .container-fluid{
     padding-left: 0;

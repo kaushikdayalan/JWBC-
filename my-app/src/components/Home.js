@@ -35,13 +35,14 @@ class Home extends Component{
             <div>
     <div className="container-fluid">
         <header className="masthead">
+            
             <Menu/>
             {width?
             <img src={Lake} alt="error" className="img-fluid"/>:
             <Media left href="/">
-                <Media src={Logo} className="img-fluid" alt="error"/>
+                <Media src={Logo} width="100px" className="img-fluid" alt="error"/> 
             </Media>
-            }
+            } <p className="lead">Welcome to the Jungle Walks Base Camp!</p>
         </header>
     </div>
                 <section>
