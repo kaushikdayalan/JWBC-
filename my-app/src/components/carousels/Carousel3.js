@@ -3,6 +3,8 @@ import {Carousel, CarouselItem, CarouselControl, CarouselIndicators} from 'react
 import h8 from '../../assets/house8.JPG'
 import h9 from '../../assets/house9.JPG'
 import h10 from '../../assets/house10.JPG'
+
+
 const items = [
   {
     src:h8
@@ -43,7 +45,7 @@ const Carousel1 = (props) => {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <img src={item.src} className="img-fluid image-edges" style={{height:'500px'}} alt={item.altText}/>
+        <img src={item.src} className="img-fluid image-car-edges car-image-size"alt={item.altText}/>
       </CarouselItem>
     );
   });
