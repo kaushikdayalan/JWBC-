@@ -1,24 +1,18 @@
 import React,{useState} from 'react'
-import {Carousel, CarouselItem,CarouselControl,CarouselIndicators,CarouselCaption} from 'reactstrap'
+import {Carousel, CarouselItem,CarouselControl,CarouselIndicators} from 'reactstrap'
 import longshot from '../assets/buffalo.jpg'
 import WHYUS from '../assets/cow.jpg'
 import lake from '../assets/horse.jpg'
 
 const items= [
     {
-        src: longshot,
-        altText: 'slide1',
-        caption:'slide1'
+        src: longshot
     },
     {
-        src:lake,
-        altText:'slide2',
-        caption:'slide2'
+        src:lake
     },
     {
-        src:WHYUS,
-        altText:'slide3',
-        caption:'slide3'
+        src:WHYUS
     }
 ];
 
@@ -52,7 +46,6 @@ const WwCarousel = (props)=>{
             width='100%'
             >   
                 <img src={item.src} className="d-block w-100" style={{height:'500px', width:'100%'}} alt={item.altText}></img>
-                <CarouselCaption captionText={item.caption} captionHeader={item.caption}/>
             </CarouselItem>
         );
     });

@@ -1,6 +1,7 @@
 import React,{Component} from 'react'
 import '../components/Accomodation.css'
 import Menu from './Menu'
+import Carousel1 from './carousels/Carousel1'
 class Accomodation extends Component{
   render(){
     return(
@@ -16,8 +17,23 @@ class Accomodation extends Component{
           </div>
           <div className="row justify-content-md-center">
             <div className="col-sm-6">
-              <p className="content-accom-style text-center">Enjoy the eclectic and elegant atmosphere at The Jungle Walks Base Camp.</p>
+              <p className="content-accom-style text-center">Enjoy the eclectic and elegant atmosphere at The 
+              Jungle Walks Base Camp.</p>
             </div>
+          </div>
+          <div className="row justify-content-md-center">
+            <div className="col-sm-4">
+              <Carousel1/>
+            </div>
+          </div>
+          <div className="row justify-content-md-center">
+            <div className="col-sm-5">
+              <h5 className="carousel-head-style">PHOTOS OF LOCATION</h5>
+            </div>
+          </div>
+          <div className="row justify-content-md-center">
+            <button type="submit" disabled className="button-style"style={{paddingTop:'10px',paddingBottom:'5px'}}>
+              BOOK NOW</button>
           </div>
         </div>
       </div>
