@@ -1,0 +1,19 @@
+
+.heading-event{
+    font-family:"Nixie One", Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    padding-top: 40px;
+    color: grey;
+  }
+
+.event-bg{
+    height: 100vh;
+    min-height: 200px;
+	background-image: url('../assets/EventsBg.jpg');
+    background-size: cover;
+    width: 100%;
+    background-blend-mode: overlay;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
