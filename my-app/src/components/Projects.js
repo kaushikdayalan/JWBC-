@@ -80,6 +80,9 @@ class Projects extends Component{
                             <img src={FHERight} alt="error" className="img-fluid image-edges"></img>
                         </div>
                     </div>
+                    <div className="row justify-content-md-center" style={{borderTop:"1px solid #667382"}}>
+
+                    </div>
                 </div>
                 <FooterMenu/>
             </div>
