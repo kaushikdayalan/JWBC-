@@ -4,7 +4,7 @@ import Menu from './Menu';
 import FooterMenu from './FooterMenu';
 import '../components/AboutUs.css'
 import LoveOftheWild from '../assets/loveofthewild.png'
-import teamColour from '../assets/s.png'
+import teamColour from '../assets/SUNIL PIC.png'
 import Lake from '../assets/lake.jpg'
 class AboutUs extends Component{
     
@@ -93,9 +93,11 @@ class AboutUs extends Component{
                 <div className="about-team">
                     <div className="container" style={{paddingTop:'50px'}}>
                         <h1 className="text-center heading2">MEET THE FOUNDER, WILD EVANGELIST <br></br>
-                        <i className="founder-name">"Sunil Fernandes"</i></h1>
-                        <h3 className="text-center sub-text" style={{paddingTop:"50px"}}>Our camp is full of soul and eccentric characters.
-                         The team have been carefully put together and are sure to give you a lively and fun wildlife holiday.</h3>
+                        <i className="founder-name">"Sunil Fernandes"</i><p className="sub-text text-right">-Passion 
+                        for the wild</p></h1>
+                        <h3 className="text-center sub-text" style={{paddingTop:"50px"}}>Our camp is full of 
+                        soul and eccentric characters.The team have been carefully put together and are sure 
+                        to give you a lively and fun wildlife holiday.</h3>
                     </div>
                     <div className="row">
                         <div className="col-sm text-center">
