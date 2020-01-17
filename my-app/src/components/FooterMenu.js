@@ -1,7 +1,7 @@
 import React from 'react'
 import {Nav, NavItem, NavLink} from 'reactstrap';
 import './FooterMenu.css'
-import footerLogo from '../assets/logoFooter.jpg'
+import footerLogo from '../assets/LogoFinal.jpg'
 const FooterMenu = ()=>{
     return(
     <div className="container" style={{paddingTop:'50px'}}> 
@@ -26,22 +26,20 @@ const FooterMenu = ()=>{
         <div className="col-xl">
             <Nav className="justify-content-center footer-padding">
                 <NavItem>
-                    <NavLink href="#asdas"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >The - Team Hug Entertainment</NavLink>
+                    <NavLink href="#asdas"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >
+                      The - Team Hug Entertainment</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="#"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >Hug - Humanity Under God</NavLink>
+                    <NavLink href="#"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >
+                      Hug - Humanity Under God</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="#"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >BLW - Bangalore Live Wire</NavLink>
+                    <NavLink href="#"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >
+                      BLW - Bangalore Live Wire</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="#"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >The Hug Studio</NavLink>
-                </NavItem>
-                <NavItem>
-                    <NavLink href="#"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >The Good News Gospel Network</NavLink>
-                </NavItem>
-                <NavItem>
-                    <NavLink href="#"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}}>Jesus Walks Before Christ International Ministers</NavLink>
+                    <NavLink href="#"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >
+                      The Hug Studio</NavLink>
                 </NavItem>
             </Nav>
         </div>

@@ -2,6 +2,8 @@ import React, {Component} from 'react'
 import Menu from './Menu'
 import '../components/ContactUs.css'
 import FooterMenu from './FooterMenu'
+import Clock from 'react-live-clock'
+import LogoPlain from '../assets/logoplain.png'
 class ContactUs extends Component{
     render(){
         return(
@@ -10,47 +12,29 @@ class ContactUs extends Component{
                     <Menu/> 
                 </header>
                 <div className="container" style={{paddingTop:'70px'}}>
+                    <div className="row justify-content-md-center">
+                        <div className="col-sm-3">
+                            <h1 className="contact-us-head">CONTACT US</h1>
+                        </div>
+                    </div>
+                    <div className="row justify-content-md-center">
+                        <div className="col-md-auto">
+                        <p className="content-contact-style text-center">Please reach out to us and feel free 
+                        to ask any questions about the property</p>
+                        </div>
+                    </div>
                     <div className="contact-us-bg">
-                    <h1 className="contact-us-head" align='center'>The Jungle Walks Base Camp</h1>
-                        <form>
-                            <div className="form-group row justify-content-center" style={{paddingTop:'50px'}}>
-                                <label className="col-sm-2 col-form-label"
-                                style={{color:'white',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}}>
-                                    Your Name(required)</label>
-                                <div className="col-sm-4">
-                                    <input type="text" className="form-control" id="Name"></input>
-                                </div>
+                        <div className="row justify-content-md-center">
+                            <div className="col-md-auto">
+                                <h1 className="box-header text-center">JUNGLE WALKS BASE CAMP</h1>
+                                <p className="box-content-contact-style text-center">inspired by <strong>THE HUNTER</strong></p>
                             </div>
-                            <div className="form-group row justify-content-center">
-                                <label className="col-sm-2 col-form-label"
-                                style={{color:'white',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}}>
-                                    Your email(required)</label>
-                                <div className="col-sm-4">
-                                    <input type="email" className="form-control" id="Email"></input>
-                                </div>
+                        </div>
+                        <div className="row justify-content-md-center">
+                            <div className="col-sm-5">
+                                <h1 className="box-header text-center" style={{fontFamily:'"Allura",cursive',fontSize:'60px'}}>Kenneth Anderson</h1>
                             </div>
-                            <div className="form-group row justify-content-center">
-                                <label className="col-sm-2 col-form-label"
-                                style={{color:'white',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}}>
-                                    Subject</label>
-                                <div className="col-sm-4">
-                                    <input type="text" className="form-control" id="Subject"></input>
-                                </div>
-                            </div>
-                            <div className="form-group row justify-content-center">
-                                <label className="col-sm-2 col-form-label"
-                                style={{color:'white',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}}>
-                                    Your message</label>
-                                <div className="col-sm-4">
-                                    <textarea className="form-control" id="Message"></textarea>
-                                </div>
-                            </div>
-                            <div className="from-group row justify-content-md-center">
-                                <div className="col-sm-4">
-                                    <input type="submit" className="form-control btn-secondary" placeholder="Submit"/>
-                                </div>
-                            </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
                 <FooterMenu/>

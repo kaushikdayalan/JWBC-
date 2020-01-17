@@ -81,7 +81,9 @@ class Projects extends Component{
                         </div>
                     </div>
                     <div className="row justify-content-md-center" style={{borderTop:"1px solid #667382"}}>
-
+                        <div className="col-sm-10">
+                            
+                        </div>
                     </div>
                 </div>
                 <FooterMenu/>

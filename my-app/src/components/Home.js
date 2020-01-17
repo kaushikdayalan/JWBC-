@@ -42,8 +42,7 @@ class Home extends Component{
             <Media left href="/">
                 <Media src={Logo} width="300px" className="img-fluid" alt="error"/> 
             </Media>
-            } <p className="lead text-right" style={{paddingTop:'300px',fontSize:'42px',paddingRight:'30px'}}>Welcome
-             to Jungle Walks Base Camp!</p>
+            }
         </header>
     </div>
                 <section>
@@ -150,10 +149,14 @@ class Home extends Component{
                         </div>
                     </div>
                 </section>
-                <div style={{height:'50%', width:'100%'}}>
-                <div style={{paddingTop:'30px',paddingBottom:'100px'}}>
-                    <h1 className="heading" align="center" style={{paddingBottom:'50px',paddingTop:'50px'}}>Wild Watching</h1>
-                    <WwCarousel/>
+                <div className="row justify-content-md-center">
+                    <div className="col-sm-5">
+                        <h3 className="heading text-center" style={{paddingTop:'50px'}}>Wild Watching</h3>
+                    </div>
+                </div>
+                <div className="row justify-content-md-center">
+                    <div className="col-sm-3" style={{paddingTop:'50px'}}>
+                        <WwCarousel/>
                     </div>
                 </div>
                 <div>
