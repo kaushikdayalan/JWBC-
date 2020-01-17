@@ -58,7 +58,11 @@ const FooterMenu = ()=>{
           <NavLink href="/Projects"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >PROJECTS</NavLink>
         </NavItem>
         <NavItem>
+<<<<<<< HEAD
           <NavLink href="/Accomodation"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >ACCOMMODATION</NavLink>
+=======
+          <NavLink href="/Accommodation"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >ACCOMMODATION</NavLink>
+>>>>>>> 40098a71bca783adaeb6347bf07f27da23b3f6cc
         </NavItem>
         <NavItem>
           <NavLink href="/Gallery"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >GALLERY</NavLink>
@@ -67,7 +71,7 @@ const FooterMenu = ()=>{
           <NavLink href="#"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >BLOG</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >EVENTS</NavLink>
+          <NavLink href="/Events"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >EVENTS</NavLink>
         </NavItem>
         <NavItem>
           <NavLink href="/Contact-us"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >CONTACT US</NavLink>

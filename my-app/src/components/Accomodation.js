@@ -23,7 +23,7 @@ class Accomodation extends Component{
               <p className="content-accom-style text-center">Enjoy the eclectic and elegant atmosphere at The 
               Jungle Walks Base Camp.</p>
             </div>
-          </div>
+          </div> 
           <div className="row justify-content-md-center">
             <div className="col-sm-10">
               <Carousel1/>
