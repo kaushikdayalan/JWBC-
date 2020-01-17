@@ -29,7 +29,6 @@
   font-style: italic;
   font-family:"Nixie One", Arial, Helvetica, sans-serif;
   padding-top:0px;
-  background-color: rgba(0, 0, 0, 0.411);
   padding-bottom: 10px;
   font-size: 30px;
   border-radius: 3px;
@@ -41,6 +40,13 @@
   font-family:"Nixie One", Arial, Helvetica, sans-serif;
   font-size: 55px;
 }
+
+.secondary-heading{
+  font-family:"Nixie One", Arial, Helvetica, sans-serif;
+  padding-top: 40px;
+  font-size: 30px;
+}
+
 .h3{
   font-family:"Nixie One", Arial, Helvetica, sans-serif;
   font-size: 24px;

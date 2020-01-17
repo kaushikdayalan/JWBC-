@@ -40,14 +40,18 @@ class Home extends Component{
             {width?
             <img src={Lake} alt="error" className="img-fluid"/>:
             <Media left href="/">
-                <Media src={Logo} width="100px" className="img-fluid" alt="error"/> 
+                <Media src={Logo} width="300px" className="img-fluid" alt="error"/> 
             </Media>
-            } <p className="lead">Welcome to the Jungle Walks Base Camp!</p>
+            } <p className="lead text-right" style={{paddingTop:'300px',fontSize:'42px',paddingRight:'30px'}}>Welcome
+             to Jungle Walks Base Camp!</p>
         </header>
     </div>
                 <section>
                     <div style={{paddingTop:'70px',paddingBottom:'100px'}}>
-                    <h1 className="heading" align='center'>The Jungle Walks Base Camp</h1>
+                    <h1 className="heading" align='center'>Jungle Walks Base Camp</h1>
+                    <h4 className="secondary-heading"align="center">An Adventure base camp in south India of 
+                    Hosur<br></br> Denkanikottai, Aiyur Forest, Bettamugilalam<br></br>connecting 
+                    the first entrance of the Eastern Ghats of India</h4>
                     </div>
                     <div align='center'style={{paddingBottom:'50px'}}>
                     <img src={longshot}className="img-fluid"style={{overflow:'hidden',paddingTop:'20px',height:'400px'}}

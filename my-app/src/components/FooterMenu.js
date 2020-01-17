@@ -58,7 +58,7 @@ const FooterMenu = ()=>{
           <NavLink href="/Projects"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >PROJECTS</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="/Accommodation"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >ACCOMMODATION</NavLink>
+          <NavLink href="/Accomodation"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >ACCOMMODATION</NavLink>
         </NavItem>
         <NavItem>
           <NavLink href="/Gallery"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >GALLERY</NavLink>
@@ -70,7 +70,7 @@ const FooterMenu = ()=>{
           <NavLink href="/Events"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >EVENTS</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >CONTACT US</NavLink>
+          <NavLink href="/Contact-us"style={{color:'#736c68',fontFamily:"'Josefin Sans',sans-serif",textAlign:'center'}} >CONTACT US</NavLink>
         </NavItem>
       </Nav>
         </div>
